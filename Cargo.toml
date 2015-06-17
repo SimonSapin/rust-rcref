@@ -1,0 +1,12 @@
+[package]
+name = "rcref"
+version = "0.1.0"
+authors = ["Simon Sapin <simon.sapin@exyr.org>"]
+description = "Refer to some component inside a std::rc::Rc"
+license = "MIT / Apache-2.0"
+repository = "https://github.com/SimonSapin/rust-rcref"
+
+[lib]
+name = "rcref"
+path = "lib.rs"
+doctest = false
